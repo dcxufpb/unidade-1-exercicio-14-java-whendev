@@ -41,21 +41,21 @@ public class TestVenda {
             + BREAK + "CEP:11111-111 Tel (11) 1111-1111" + BREAK + "Obs 1" + BREAK + "CNPJ: 11.111.111/1111-11" + BREAK
             + "IE: 123456789" + BREAK + "------------------------------" + BREAK + "13/10/2020 15:39:0V CCF:021784 COO: 035804" + BREAK
             + "CUPOM FISCAL" + BREAK + "ITEM CODIGO DESCRICAO QTD UN VL UNIT(R$) ST VL ITEM(R$)" + BREAK
-            + "1 100 Banana 10 cx 7.45 ST 74.50" + BREAK + "2 101 Laranja 5 cx 3.32 ST 16.60" + BREAK + "------------------------------" + BREAK
+            + "1 100 Banana 10 cx 7,45 ST 74.50" + BREAK + "2 101 Laranja 5 cx 3,32 ST 16.60" + BREAK + "------------------------------" + BREAK
             + "TOTAL R$ 91.10" + BREAK;
 
     private String TEXTO_ESPERADO_CENARIO_2_VENDA_1 = "Loja 1" + BREAK + "Log 1, 10 C1" + BREAK + "Bai 1 - Mun 1 - E1"
             + BREAK + "CEP:11111-111 Tel (11) 1111-1111" + BREAK + "Obs 1" + BREAK + "CNPJ: 11.111.111/1111-11" + BREAK
             + "IE: 123456789" + BREAK + "------------------------------" + BREAK + "13/10/2020 15:39:0V CCF:021784 COO: 035804" + BREAK
             + "CUPOM FISCAL" + BREAK + "ITEM CODIGO DESCRICAO QTD UN VL UNIT(R$) ST VL ITEM(R$)" + BREAK
-            + "1 100 Banana 1 cx 7.45 ST 7.45" + BREAK + "------------------------------" + BREAK
+            + "1 100 Banana 1 cx 7,45 ST 7.45" + BREAK + "------------------------------" + BREAK
             + "TOTAL R$ 7.45" + BREAK;
 
     private String TEXTO_ESPERADO_CENARIO_2_VENDA_2 = "Loja 1" + BREAK + "Log 1, 10 C1" + BREAK + "Bai 1 - Mun 1 - E1"
             + BREAK + "CEP:11111-111 Tel (11) 1111-1111" + BREAK + "Obs 1" + BREAK + "CNPJ: 11.111.111/1111-11" + BREAK
             + "IE: 123456789" + BREAK + "------------------------------" + BREAK + "13/10/2020 15:39:0V CCF:021784 COO: 035804" + BREAK
             + "CUPOM FISCAL" + BREAK + "ITEM CODIGO DESCRICAO QTD UN VL UNIT(R$) ST VL ITEM(R$)" + BREAK
-            + "1 101 Laranja 3 cx 3.32 ST 9.96" + BREAK + "------------------------------" + BREAK
+            + "1 101 Laranja 3 cx 3,32 ST 9.96" + BREAK + "------------------------------" + BREAK
             + "TOTAL R$ 9.96" + BREAK;
 
     private String TEXTO_ESPERADO_CENARIO_3 = "Loja 1" + BREAK + "Log 1, 10 C1" + BREAK + "Bai 1 - Mun 1 - E1"
